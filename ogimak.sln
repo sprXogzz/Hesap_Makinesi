@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ogimak", "ogimak\ogimak.csproj", "{F1A4A84C-C7D2-42F2-A19A-0406C7A3FEAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1A4A84C-C7D2-42F2-A19A-0406C7A3FEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A4A84C-C7D2-42F2-A19A-0406C7A3FEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A4A84C-C7D2-42F2-A19A-0406C7A3FEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A4A84C-C7D2-42F2-A19A-0406C7A3FEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FA13F24-8085-474A-841B-AB373BAFB169}
+	EndGlobalSection
+EndGlobal
