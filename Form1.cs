@@ -370,7 +370,7 @@ namespace ogimak
 
         private void buttonGraph_Click(object sender, EventArgs e)
         {
-            // Kullanıcıdan seçim alıyoruz
+            
             DialogResult result = MessageBox.Show(
                 "Hangi grafiği çizmek istiyorsun?\nEvet = X^2\nHayır = X^3\nİptal = |X| ve √X",
                 "Grafik Seçimi",
@@ -408,7 +408,7 @@ namespace ogimak
                     s.Points.AddXY(x, Math.Pow(x, 3));
                 chart1.Series.Add(s);
             }
-            else if (result == DialogResult.Cancel) // |X| ve √X
+            else if (result == DialogResult.Cancel) 
             {
                 Series s1 = new Series("|X|");
                 s1.ChartType = SeriesChartType.Line;
@@ -546,6 +546,7 @@ namespace ogimak
 
 
 }
+
 
 
 
